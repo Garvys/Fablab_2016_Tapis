@@ -1,0 +1,31 @@
+NN : step 977, training accuracy 0.971                                                          
+NN : step 978, training accuracy 0.955                                                          
+NN : step 979, training accuracy 0.963                                                          
+NN : step 980, training accuracy 0.96                                                           
+NN : step 981, training accuracy 0.957                                                          
+NN : step 982, training accuracy 0.971                                                          
+NN : step 983, training accuracy 0.958                                                          
+NN : step 984, training accuracy 0.966                                                          
+NN : step 985, training accuracy 0.96                                                           
+NN : step 986, training accuracy 0.967                                                          
+NN : step 987, training accuracy 0.941                                                          
+NN : step 988, training accuracy 0.966                                                          
+NN : step 989, training accuracy 0.965                                                          
+NN : step 990, training accuracy 0.953                                                          
+NN : step 991, training accuracy 0.969                                                          
+NN : step 992, training accuracy 0.953                                                          
+NN : step 993, training accuracy 0.952                                                          
+NN : step 994, training accuracy 0.964                                                          
+NN : step 995, training accuracy 0.97                                                           
+NN : step 996, training accuracy 0.951                                                          
+NN : step 997, training accuracy 0.962                                                          
+NN : step 998, training accuracy 0.955                                                          
+NN : step 999, training accuracy 0.957                                                          
+NN : Training accuracy = 0.960752                                                               
+NN : Validation accuracy = 0.953842                                                             
+>>> nn.predict([[3,1,3,11,12,15,247,248,13,18,3,0,249,246,233,2,10,16]])                        
+array([[  3.71512508e-11,   1.00000000e+00]], dtype=float32)                                    
+>>> nn.predict([[250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,250]])                                     
+array([[ 0.97354478,  0.02645527]], dtype=float32)                                              
+>>> nn.predict([[19,1,15,4,5,6,15,12,240,82,1,0,19,7,5,13,12,0]])                               
+array([[  1.00000000e+00,   3.67996783e-19]], dtype=float32)
